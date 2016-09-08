@@ -15,7 +15,8 @@ class Stack_List:
 	def show(self):
 		print self.elements
 
-
+	def isEmpty(self):
+		return len(self.elements)==0
 
 def tests():
 	s = Stack_List()

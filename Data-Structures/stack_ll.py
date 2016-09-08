@@ -42,6 +42,11 @@ class Stack_LL:
 			i = i.next
 		print output
 
+	def isEmpty(self):
+		if self.top == None:
+			return True
+		return False
+
 def tests():
 	s = Stack_LL()
 	s.push(3)
